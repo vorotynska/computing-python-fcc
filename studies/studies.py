@@ -2,11 +2,11 @@
 # The sum() function returns the sum of the items in the iterable 
 #which is passed as its argument.
 test1 = lambda x: x * 2
-print(sum(map(test, [2,3,5,8])))
+print(sum(map(test1, [2,3,5,8])))
 
 test2 = lambda x: x * 2
 #To obtain a readable output to turn the map object into a list.
-print(list(map(test, [2, 3, 5, 8])))
+print(list(map(test2, [2, 3, 5, 8])))
 
 #filter() takes a function as its first argument and an iterable 
 #as its second argument.
@@ -134,3 +134,13 @@ def square_root_bisection(square_target, tolerance = 1e-7, max_iterations = 100)
 # my_dict['name'] # 'Michael' You can access the data stored in a dictionary through its keys
 # my_dict['food'] = 'hay' #The same syntax can be used to change the value of an existing key.
 # if you want to be able to go through the key-value pairs, you can use the .items() method.
+
+# Dictionary comprehensions support conditional if/else syntax too:
+# {key: val_1 if condition else val_2 for key in dict}
+
+# min() function. It returns the smallest item from the iterable passed as the argument.
+
+# The .remove() method removes from a list the first matching element that is passed as the argument
+# my_list = ['larch', 1, True, 1]
+# my_list.remove(1)
+# print(my_list) # Output: ['larch', True, 1]

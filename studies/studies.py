@@ -144,3 +144,9 @@ def square_root_bisection(square_target, tolerance = 1e-7, max_iterations = 100)
 # my_list = ['larch', 1, True, 1]
 # my_list.remove(1)
 # print(my_list) # Output: ['larch', True, 1]
+
+# ------------------- 
+#You can use the __name__ variable to determine if a Python script is being run as the main 
+# program or if it is being imported as a module (code written in another Python file).
+#If the value of __name__ is set to '__main__', it implies that the current script is the main
+# program, and not a module.

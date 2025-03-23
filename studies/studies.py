@@ -150,3 +150,20 @@ def square_root_bisection(square_target, tolerance = 1e-7, max_iterations = 100)
 # program or if it is being imported as a module (code written in another Python file).
 #If the value of __name__ is set to '__main__', it implies that the current script is the main
 # program, and not a module.
+
+# ---------- Class Object
+
+#class ClassName:
+#    def method_name(self):
+#       pass
+
+#instance_name.method_name()
+
+# The enumerate built-in function takes an iterable as its argument
+# and returns an enumerate object you can iterate over. It provides 
+# the count (which by default starts at zero) and the value from the 
+# iterable.
+#iterable = ['a', 'b', 'c']
+#for i, j in enumerate(iterable):
+#    print(i, j)
+# The loop from the example above would output the tuples 0, a, 1, b, and 2, c.

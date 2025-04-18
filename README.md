@@ -24,3 +24,14 @@ Abstract classes enable you to define formal interfaces - objects acting as blue
 
 In this project, you'll discover how to implement an interface in Python while building a simple equation solver program.
  x = (−b ± (√b**2-4ac)) / 2a 
+
+ # Trajectory calculator
+ Encapsulation is a core OOP principle based on writing code that limits direct access to data.
+
+In this project, you'll discover new concepts related to encapsulation, such as getters, setters, and name mangling, and you'll use them together with what you already learned to create a program that calculates a projectile trajectory.
+
+d = v⋅cosθ⋅(v⋅sinθ + √v**2sin**2θ+2⋅g⋅h) / g 
+    In which d is the displacement, v is the starting speed, 
+    θ is the angle and  h is the starting height
+
+y = y[0] + xtanθ − gx**2/2x**cos**2 0
